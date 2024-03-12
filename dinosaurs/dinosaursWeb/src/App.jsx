@@ -1,8 +1,9 @@
-import './App.css'
-
 function App() {
   return (
-    <>Dinosaurs</>
+    <>
+    <p className='headerRed'>Dinosaurs</p>
+    <p className='copytext'>some smaller Themed text</p>
+    </>
   )
 }
 
