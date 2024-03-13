@@ -8,7 +8,8 @@ html {
 
 .headerRed {
     color: red;
-    font-size: 10rem;
+    font-size: 5rem;
+    margin: 0;
 }
 
 .copytext {
