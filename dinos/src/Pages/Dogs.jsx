@@ -1,7 +1,7 @@
 const Dogs = () => {
     return (
         <>
-            <p>A page with random dog photos</p>
+            <p>Hello from Dogs</p>
         </>
     )
 };

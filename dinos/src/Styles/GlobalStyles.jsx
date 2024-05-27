@@ -6,16 +6,18 @@ html {
     --color-secondary: rgb(222, 0, 0);
 }
 
-.headerRed {
-    color: red;
-    font-size: 5rem;
+
+body {
     margin: 0;
+    box-sizing: border-box;
 }
 
-.copytext {
-    color: ${(props) => props.theme.color.primary};
+.horizontal-list {
+    display: flex;
 }
 
 `;
+
+
 
 export default GlobalStyle;

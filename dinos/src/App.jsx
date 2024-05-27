@@ -16,8 +16,6 @@ const Layout = () => {
 const App =() => {
   return (
     <>
-    <p className='headerRed'>Dinosaurs</p>
-    <p className='copytext'>some smaller Themed text</p>
     <Routes>
        <Route path="/" element={<Layout />}>
            <Route index element={<Home />} />
