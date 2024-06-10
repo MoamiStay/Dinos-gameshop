@@ -1,10 +1,10 @@
 import useApi from "../Hooks/useApi";
 const UrlGameList = "https://api.rawg.io/api/games?page=1&key=0a4e4684ac2e467782d960abdd0667a2";
+import Gamelist from "../Components/Landingpage/Gamelist/Gamelist";
 
 const Home = () => {
   const { data, isLoading, isError } = useApi(UrlGameList)
   const games = data.results;
-
 
   if (isLoading) {
   return (
@@ -22,17 +22,12 @@ const Home = () => {
   );
   }
 
-let doc = "";
+return (
+    <>
+      <Gamelist games={games} />
+    </>
+)
 
-if (games) {
-for (let game in Object.keys(games)) {
-  console.log(games[game].name);
-  doc += `
-  ${games[game].name}
-  `
-};
-return doc;
-}
 
 };
 
