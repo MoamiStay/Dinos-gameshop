@@ -13,6 +13,7 @@ react-dom: "^18.2.0",
 react-router-dom: "^6.22.3",
 styled-components: "^6.1.8"
 antd: ""
+react-infinite-scroller: ""
 
 TO DO:
 
@@ -22,7 +23,7 @@ TO DO:
 
 - Game rating (%based: Overy positive, Mostly positive, Mixed, Mostly negative, Overly negative)
 
-- Loading games (infinite scroll)
+X Loading games (infinite scroll)
 
 - Add game to a Cart or Wishlist (Stored in LocalStorage)
 
