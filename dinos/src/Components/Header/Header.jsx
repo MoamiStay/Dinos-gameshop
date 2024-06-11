@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Headermenu, Hero_placeholder, Logo, MenuButtons } from "./styles";
+import { Headermenu, Logo, MenuButtons } from "./styles";
 
 const Header = () => {
     return (
@@ -15,7 +15,6 @@ const Header = () => {
                 <MenuButtons>opt3</MenuButtons>
             </div>
         </Headermenu>
-                <Hero_placeholder>HeroImg placeholder</Hero_placeholder>
 
             <Link to="/">
                 <p>Header Link - Home</p>

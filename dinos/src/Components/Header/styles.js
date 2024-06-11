@@ -7,12 +7,6 @@ export const Headermenu = styled.div`
   background-color: green;
 `;
 
-export const Hero_placeholder = styled.div`
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 40vh;
-`;
-
 export const Logo = styled.div`
   background-color: white;
 `;

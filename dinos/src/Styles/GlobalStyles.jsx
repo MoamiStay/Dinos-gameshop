@@ -16,6 +16,10 @@ body {
     display: flex;
 }
 
+.CarouselHover:hover .overlay {
+    opacity: 1;
+}
+
 `;
 
 
