@@ -19,11 +19,25 @@ TO DO:
 
 - ~~Loading games (infinite scroll)~~
 
-- Header Carousel (Browse Genres)
+- ~~Header Carousel~~ (Browse Genres via link)
 
-- View Game details (Reviews, general info)
+- ~~View Game details~~
 
-- Game rating (%based: Overy positive, Mostly positive, Mixed, Mostly negative, Overly negative)
+        Details: Game rating (%based: Overy positive, Mostly positive, Mixed, Mostly negative, Overly negative)
+
+        Details: Game screenshots & Trailers
+
+        Details: Other games of same gameseries
+
+        Details: View achievements
+
+        Details: Creators that were part of dev team
+
+        Details: DLC's, GOTY, companion apps + other editions etc
+
+        Details: View related games
+
+        Details: most recent posts from subreddit
 
 - Add game to a Cart or Wishlist (Stored in LocalStorage)
 

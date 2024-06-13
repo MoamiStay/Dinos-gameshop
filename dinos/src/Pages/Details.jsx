@@ -8,7 +8,6 @@ const Details = () => {
 
     return (
         <>
-            <p>HERE's THE GAME:!</p>
             <h1>{data.name}</h1>
         </>
     )
