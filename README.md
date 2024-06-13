@@ -17,13 +17,13 @@ react-infinite-scroller: ""
 
 TO DO:
 
+- ~~Loading games (infinite scroll)~~
+
 - Header Carousel (Browse Genres)
 
 - View Game details (Reviews, general info)
 
 - Game rating (%based: Overy positive, Mostly positive, Mixed, Mostly negative, Overly negative)
-
-X Loading games (infinite scroll)
 
 - Add game to a Cart or Wishlist (Stored in LocalStorage)
 
