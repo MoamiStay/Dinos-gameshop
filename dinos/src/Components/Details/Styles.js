@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+// importtant comment
+
 export const Section = styled.section`
   position: relative;
   width: 100%;
