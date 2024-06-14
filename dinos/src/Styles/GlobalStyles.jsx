@@ -18,6 +18,21 @@ body {
     display: flex;
 }
 
+.preview-carousel {
+    width: 70%;
+    background-color: #0f161b;
+}
+
+.top-width {
+    width: 80%; 
+    margin: auto;
+}
+
+.bot-width {
+    width: 60%;
+    margin: auto;
+}
+
 `;
 
 

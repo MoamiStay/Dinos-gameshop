@@ -23,16 +23,24 @@ export const Section = styled.section`
 
 export const GameTitle = styled.h1`
   width: 100%;
-  font-size: 3rem;
-  text-align: center;
+  font-size: 2.5rem;
 `;
 
 export const PreviewContainer = styled.div`
-  margin: auto;
-  width: 50%;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const PreviewImg = styled.img`
   width: 100%;
-  object-fit: cover;
+  height: auto;
+`;
+
+export const VideoPlayer = styled.video`
+  width: 100%;
+  height: auto;
 `;

@@ -25,10 +25,10 @@ const Home = () => {
 
 return (
     <>
-      <div style={{width: "60%", margin: "auto"}}>
+      <div className="top-width">
         <CarouselComponent />
       </div>
-      <div style={{width: "60%", margin: "auto"}}>
+      <div className="bot-width">
         <Gamelist games={games} />
       </div>
     </>

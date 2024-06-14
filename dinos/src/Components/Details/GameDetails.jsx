@@ -9,8 +9,10 @@ const GameDetails = (props) => {
     return (
         <>
         <Section bgImage={data.background_image}>
-        <GameTitle>{data.name}</GameTitle>
+        <GameTitle className="top-width">{data.name}</GameTitle>
+        <div className="top-width">
         <Preview data={data}></Preview>
+        </div>
         </Section>
         </>
     )
