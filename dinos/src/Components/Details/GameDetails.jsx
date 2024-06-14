@@ -1,4 +1,5 @@
 import Preview from "./Preview";
+import Description from "./Description";
 import { GameTitle, Section } from "./Styles";
 
 
@@ -9,11 +10,12 @@ const GameDetails = (props) => {
     return (
         <>
         <Section bgImage={data.background_image}>
-        <GameTitle className="top-width">{data.name}</GameTitle>
-        <div className="top-width">
-        <Preview data={data}></Preview>
-        </div>
-        </Section>
+            <div className="top-width">
+                <GameTitle>{data.name}</GameTitle>
+                <Preview data={data}></Preview>
+                <Description data={data}></Description>
+            </div>
+            </Section>
         </>
     )
 };

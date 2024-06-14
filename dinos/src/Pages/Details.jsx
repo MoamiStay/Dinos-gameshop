@@ -4,12 +4,15 @@ import { BaseEndpoint, keyEndpoint } from "../assets/Endpoints/Urls";
 import GameDetails from "../Components/Details/GameDetails";
 
 const Details = () => {
-    const { id } = useParams();
+    const { id } = useParams(); 
     const { data, isLoading, isError } = useApi(`${BaseEndpoint}/${id}?${keyEndpoint}`)
 
     return (
         <>
-        <GameDetails data={data} />
+        {/* LEFT: Homepage, Genres, Tags */}
+        <GameDetails data={data} /> 
+        {/* CENTER: Title, screenshots, Description, Achievements, DLC's, Gameseries, Related, Redditposts */}
+        {/* BOTTOM: Rating, Release, Devs, Platforms, Stores */}
         </>
     )
 };

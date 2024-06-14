@@ -25,9 +25,12 @@ TO DO:
 
         Details: Game rating (%based: Overy positive, Mostly positive, Mixed, Mostly negative, Overly negative)
 
-        Details: Game screenshots & Trailers
+        ~~Details: Game screenshots & Trailers~~
+
+        Details: Description
 
         Details: Other games of same gameseries
+
 
         Details: View achievements
 
