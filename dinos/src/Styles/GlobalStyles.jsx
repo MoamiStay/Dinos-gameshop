@@ -10,6 +10,8 @@ html {
 body {
     margin: 0;
     box-sizing: border-box;
+    background-color: #0f161b;
+    color: #d8d8d8;
 }
 
 .horizontal-list {

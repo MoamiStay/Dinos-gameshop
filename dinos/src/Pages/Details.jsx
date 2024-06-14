@@ -1,6 +1,7 @@
 import useApi from "../Hooks/useApi";
 import { useParams } from "react-router-dom";
 import { BaseEndpoint, keyEndpoint } from "../assets/Endpoints/Urls";
+import GameDetails from "../Components/Details/GameDetails";
 
 const Details = () => {
     const { id } = useParams();
@@ -8,7 +9,7 @@ const Details = () => {
 
     return (
         <>
-            <h1>{data.name}</h1>
+        <GameDetails data={data} />
         </>
     )
 };
