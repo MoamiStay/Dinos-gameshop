@@ -1,8 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useParams } from "react-router-dom";
 import { Carousel } from "antd";
-import useApi from "../../Hooks/useApi";
-import { BaseEndpoint, keyEndpoint } from "../../assets/Endpoints/Urls";
+import { BaseEndpoint, keyEndpoint } from "../../../assets/Endpoints/Urls";
 import { PreviewContainer, PreviewImg, VideoPlayer } from "./Styles";
 
 const Preview = () => {

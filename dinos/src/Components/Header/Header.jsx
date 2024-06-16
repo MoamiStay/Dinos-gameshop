@@ -16,12 +16,12 @@ const Header = () => {
             </div>
         </Headermenu>
 
-            <Link to="/">
-                <p>Header Link - Home</p>
-            </Link>
-
             <Link to="/Dogs">
                 <p>Header Link - Dogs</p>
+            </Link>
+
+            <Link to="/">
+                <p>Header Link - Home</p>
             </Link>
 
             {/* <Link to="/NotFound">

@@ -1,11 +1,10 @@
-import Preview from "./Preview";
-import Description from "./Description";
+import Preview from "./Carousel/Preview";
+import Description from "./Description/Description";
 import { GameTitle, Section } from "./Styles";
 
 
 const GameDetails = (props) => {
     const data = props.data;
-    // console.log(data);
 
     return (
         <>
