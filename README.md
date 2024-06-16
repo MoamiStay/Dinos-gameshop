@@ -4,6 +4,8 @@
 
 # Hosted page
 
+Netlify: https://dinos-gameshop.netlify.app/
+
 API: https://rawg.io/apidocs  
 Docs: https://rawg.io/apidocs
 
