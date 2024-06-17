@@ -9,6 +9,9 @@ const Header = () => {
             <div> 
                 <Logo>Dinoslogo</Logo>
             </div>
+            <Link to="/">
+                <p>Header Link - Home</p>
+            </Link>
             <div className="horizontal-list">
                 <MenuButtons>opt1</MenuButtons>
                 <MenuButtons>opt2</MenuButtons>
@@ -16,13 +19,9 @@ const Header = () => {
             </div>
         </Headermenu>
 
-            <Link to="/Dogs">
+            {/* <Link to="/Dogs">
                 <p>Header Link - Dogs</p>
-            </Link>
-
-            <Link to="/">
-                <p>Header Link - Home</p>
-            </Link>
+            </Link> */}
 
             {/* <Link to="/NotFound">
                 <p>Nothingness</p>

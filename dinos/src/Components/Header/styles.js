@@ -7,7 +7,7 @@ export const Headermenu = styled.div`
   z-index: 2;
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: #0f161b;
 `;
 
 export const Logo = styled.div`

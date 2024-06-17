@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const Section = styled.section`
   position: relative;
-  width: 80%;
+  width: 70%;
   margin: auto;
   overflow: hidden;
-  background-color: ;
+  background-color: #0f161b;
 
   &::before {
     content: "";
@@ -17,7 +17,7 @@ export const Section = styled.section`
     background-image: url(${(props) => props.bgImage});
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.3; /* Adjust the opacity as needed */
+    opacity: 0.2; /* Adjust the opacity as needed */
     z-index: -1; /* Ensure the pseudo-element is behind the children */
   }
 `;
