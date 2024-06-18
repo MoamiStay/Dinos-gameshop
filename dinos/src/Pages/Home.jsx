@@ -24,14 +24,26 @@ const Home = () => {
   }
 
 return (
-    <>
-      <div className="top-width">
-        <CarouselComponent />
-      </div>
-      <div className="bot-width">
-        <Gamelist games={games} />
-      </div>
-    </>
+    <section className="homepage-layout">
+      <aside>
+        <p>Left side</p>
+        <p>Left side</p>
+        <p>Left side</p>
+      </aside>
+        <main>
+            <div>
+              <CarouselComponent />
+            </div>
+            <div>
+              <Gamelist games={games} />
+            </div>
+          </main>
+      <aside>
+        <p>Right side</p>
+        <p>Right side</p>
+        <p>Right side</p>
+      </aside>
+    </section>
 )
 
 

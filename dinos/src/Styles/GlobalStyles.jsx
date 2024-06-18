@@ -18,23 +18,26 @@ body {
     display: flex;
 }
 
-.preview-carousel {
-    width: 70%;
-    background-color: #0f161b;
-    border: 15px solid #0c1317;
+.homepage-layout {
+    display: flex;
+    flex-direction: row;
 }
 
-.top-width {
-    width: 100%; 
-    margin: auto;
-    padding-top: 30px;
+.homepage-layout main {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
 }
 
-.bot-width {
-    width: 60%;
-    margin: auto;
+.homepage-layout aside {
+    flex: 1;
+    background-color: white;
+    color: black;
 }
 `;
+
+
 
 
 

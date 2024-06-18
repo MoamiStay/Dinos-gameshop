@@ -26,7 +26,6 @@ const CarouselComponent = () => {
   }
 
     return (
-  <>
     <Carousel arrows infinite={true} autoplay={true} autoplaySpeed={5000}>
             {games.slice(0,4).map((item, idx) => (
                     <Container key={idx}>
@@ -37,7 +36,6 @@ const CarouselComponent = () => {
                     </Container>
              ))} 
     </Carousel>
-  </>
 )};
 
 export default CarouselComponent;
