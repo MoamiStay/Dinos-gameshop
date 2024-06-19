@@ -32,8 +32,7 @@ body {
 
 .homepage-layout aside {
     flex: 1;
-    background-color: white;
-    color: black;
+    background-color: #0f161b;
 }
 `;
 

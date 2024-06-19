@@ -2,7 +2,7 @@ import InfiniteScroll from "react-infinite-scroller";
 import { useState, useCallback } from "react";
 import { Link } from "react-router-dom";
 import { BaseEndpoint, keyEndpoint } from "../../../assets/Endpoints/Urls";
-import { GameItems } from "./styles";
+import { GameItems, UL, LI } from "./styles";
 import Item from "./Item";
 
 const Gamelist = (props) => {
@@ -37,17 +37,17 @@ const Gamelist = (props) => {
             loader={<div className="loader" key={0}>Loading....</div>}
         >
             <GameItems>
-                <ul>
+                <UL>
                 {games.map((item, idx) => {
                     return (
-                        <li key={item.id}>
+                        <LI key={item.id}>
                             <Link to={`/Details/${item.id}`}>
                                 <Item item={item} />;
                             </Link>
-                        </li>
+                        </LI>
                     )
                 })}
-                </ul>
+                </UL>
             </GameItems>
         </InfiniteScroll>
     );
