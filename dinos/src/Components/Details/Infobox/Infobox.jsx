@@ -8,9 +8,10 @@ const Infobox = (props) => {
         <Container>
         <GameTitle>{data.name}</GameTitle>
         <Info>
-            <div>Rating: {data.rating} {data.ratings_count} votes</div>
+            <div>Rating: {data.rating_top} + ratings</div>
             <div>Release: {data.released}</div>
             <GetGenres data={data}></GetGenres>
+            <p>*esrb_rating</p>
         </Info>
         </Container>
     )

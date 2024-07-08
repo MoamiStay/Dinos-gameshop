@@ -14,10 +14,14 @@ export const Section = styled.section`
     left: 0;
     width: 100%;
     height: 100vh;
-    background-image: url(${(props) => props.bgImage});
+    background-image: url(${(props) => props.bgimage});
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.2; /* Adjust the opacity as needed */
     z-index: -1; /* Ensure the pseudo-element is behind the children */
   }
+`;
+
+export const MainBody = styled.div`
+  display: flex;
 `;
