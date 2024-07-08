@@ -8,7 +8,7 @@ const Infobox = (props) => {
         <Container>
         <GameTitle>{data.name}</GameTitle>
         <Info>
-            <div>Rating: {data.rating}</div>
+            <div>Rating: {data.rating} {data.ratings_count} votes</div>
             <div>Release: {data.released}</div>
             <GetGenres data={data}></GetGenres>
         </Info>

@@ -1,12 +1,16 @@
+import DescriptionComponent from "./DescriptionComponent";
 
 const Description = (props) => {
     const data = props.data;
     console.log(data);
 
     return (
-        <div style={{width: "60%"}}>
-            <p>{data.description_raw}</p>
-        </div>
+        <>
+            <h3>Game description</h3>
+            <div style={{width: "60%", height: "100px", overflow: "scroll"}}>
+                <DescriptionComponent description={data.description} />
+            </div>
+        </>
     )
 };
 
