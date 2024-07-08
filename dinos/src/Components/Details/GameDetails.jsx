@@ -1,6 +1,7 @@
 import Preview from "./Carousel/Preview";
 import Description from "./Description/Description";
-import { GameTitle, Section } from "./Styles";
+import { Section } from "./Styles";
+import Infobox from "./Infobox/Infobox";
 
 
 const GameDetails = (props) => {
@@ -10,7 +11,7 @@ const GameDetails = (props) => {
         <>
         <Section bgImage={data.background_image}>
             <div className="top-width">
-                <GameTitle>{data.name}</GameTitle>
+                <Infobox data={data}></Infobox>
                 <Preview data={data}></Preview>
                 <Description data={data}></Description>
             </div>

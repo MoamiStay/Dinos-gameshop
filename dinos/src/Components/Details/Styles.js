@@ -21,8 +21,3 @@ export const Section = styled.section`
     z-index: -1; /* Ensure the pseudo-element is behind the children */
   }
 `;
-
-export const GameTitle = styled.h1`
-  width: 100%;
-  font-size: 2.5rem;
-`;
